@@ -1,0 +1,432 @@
+<html>
+<head>
+  <link rel="stylesheet" href="For/css/stylee.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css..">
+<link rel="stylesheet" href="C:\Users\w2\Desktop\Final project\For\datepicker.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B.." charset="UTF-8"></script><script src="https://kit.fontawesome.com/847d0d0a35.js" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fon.." rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+<meta charset="utf-8">
+<title>Air Astana</title>
+<style> * {
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body {
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+overflow-x: hidden;
+transition: 0.6s linear;
+background: #7ed6df;
+}
+
+.product-card{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card2{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card3{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card4{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 20%;
+    top: 115%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card5{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 115%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card6{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    position: absolute;
+    left: 80%;
+    top: 115%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.product-card h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+.product-card2 h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+.product-card3 h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+.product-card4 h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+.product-card5 h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+
+.product-card6 h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+
+}
+.product5-pic {
+    background-image: url(images/sweat.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product6-pic {
+    background-image: url(images/usb.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product-pic {
+    background-image: url(images/product1.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product2-pic {
+    background-image: url(images/cardd.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product3-pic {
+    background-image: url(images/toy.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product4-pic {
+    background-image: url(images/scarf.jpeg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+.product-colors {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.product-colors span{
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.blue {
+    background: #7ed6df;
+}
+.green {
+    background: #badc58;
+}
+.yellow {
+    background: #f9ca24;
+}
+.rose {
+    background: #ff7979;
+}
+
+.product-info{
+  display: flex;
+  align-items: center;
+}
+.product-price{
+  color: #7ed6df;
+  font-size: 26px;
+}
+
+.product-button{
+  margin-left: auto;
+  color: #7ed6df;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 24px;
+  border-radius: 20px;
+  transition: .4s;
+}
+.product-button:hover{
+  transform: scale(1.06);
+}
+
+
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.dropdown {
+  &:hover {
+    > .dropdown-menu {
+      display: block;
+    }
+  }
+}
+.megamenu {
+  position: static;
+  .dropdown-menu {
+  border: none;
+  width: 100%;
+  }
+}
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-yellow bg-dark py-3 shadow-sm fixed-top">
+        <a href="C:\Users\w2\Desktop\Finalll\bootstrap.html" class="navbar-brand font-weight-bold mr-auto"><img src="images/like.png" style="height: 70px; width: 280px;"></a>
+        <div id="navbarContent" class="collapse navbar-collapse order-sm-12 order-lg-1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown megamenu"><a id="megamenu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">My Booking</a>
+              <div aria-labelledby="megamenu" class="dropdown-menu border-0 p-0 m-0">
+                <div class="container-fluid">
+                  <div class="row bg-dark text-light rounded-0 m-0 shadow-sm">
+                    <div class="col-12">
+                      <div class="p-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 1</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\page2.html" class="nav-link text-small pb-0">Online registration</a></li>
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\Market.html" class="nav-link text-small pb-0 ">Air Astana Market</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                             
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 2</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:/Users/w2/Desktop/Finalll/page3.html" class="nav-link text-small pb-0 ">Book Flight</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 3</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:/Users/w2/Desktop/Finalll/page4.html" class="nav-link text-small pb-0 ">FAQ</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 4</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
+          </ul>
+        </div>  
+        <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler order-md-1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      </nav>
+      
+      <div class="product-card">
+        <h1>Aircraft models</h1>
+       
+        <div class="product-pic"></div>
+        <div class="product-colors">
+            <span class="blue active" data-color="#7ed6df" data-pic="url(product1.jpeg)"></span>
+            <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+            <span class="yellow" data-color="#f9ca24"></span>
+            <span class="rose" data-color="#ff7979"></span>
+        </div>
+        <div class="product-info">
+            <div class="product-price">20000₸</div>
+            <input id="elem5" type="button" class="product-button" value="Add to cart">
+    <script>
+      elem5.onclick = function() {
+        alert('Спасибо');
+      };
+    </script>
+        </div>
+    </div>
+
+    <div class="product-card2">
+      <h1>Airbus A320neo (1:200)</h1>
+     
+      <div class="product2-pic"></div>
+      <div class="product-colors">
+          <span class="blue active" data-color="#7ed6df" data-pic="url(cardd.jpeg)"></span>
+          <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+          <span class="yellow" data-color="#f9ca24"></span>
+          <span class="rose" data-color="#ff7979"></span>
+      </div>
+      <div class="product-info">
+          <div class="product-price">10000₸</div>
+          <input id="elem4" type="button" class="product-button" value="Add to cart">
+    <script>
+      elem4.onclick = function() {
+        alert('Спасибо');
+      };
+    </script>
+      </div>
+  </div>
+
+  <div class="product-card3">
+    <h1>Anti-stress toy aircraft</h1>
+   
+    <div class="product3-pic"></div>
+    <div class="product-colors">
+        <span class="blue active" data-color="#7ed6df" data-pic="url(cardd.jpeg)"></span>
+        <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+        <span class="yellow" data-color="#f9ca24"></span>
+        <span class="rose" data-color="#ff7979"></span>
+    </div>
+    <div class="product-info">
+        <div class="product-price">900₸</div>
+        <input id="elem3" type="button" class="product-button" value="Add to cart">
+    <script>
+      elem3.onclick = function() {
+        alert('Спасибо');
+      };
+    </script>
+    </div>
+</div>
+<div class="product-card4">
+  <h1>Scarf</h1>
+ 
+  <div class="product4-pic"></div>
+  <div class="product-colors">
+      <span class="blue active" data-color="#7ed6df" data-pic="url(cardd.jpeg)"></span>
+      <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+      <span class="yellow" data-color="#f9ca24"></span>
+      <span class="rose" data-color="#ff7979"></span>
+  </div>
+  <div class="product-info">
+      <div class="product-price">2500₸</div>
+      <input id="elem2" type="button" class="product-button" value="Add to cart">
+    <script>
+      elem2.onclick = function() {
+        alert('Спасибо');
+      };
+    </script>
+  </div>
+</div>
+
+<div class="product-card5">
+  <h1>Sweatshirt</h1>
+ 
+  <div class="product5-pic"></div>
+  <div class="product-colors">
+      <span class="blue active" data-color="#7ed6df" data-pic="url(cardd.jpeg)"></span>
+      <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+      <span class="yellow" data-color="#f9ca24"></span>
+      <span class="rose" data-color="#ff7979"></span>
+  </div>
+  <div class="product-info">
+      <div class="product-price">5000₸</div>
+      <input id="elem1" type="button" class="product-button" value="Add to cart">
+      <script>
+        elem1.onclick = function() {
+          alert('Спасибо');
+        };
+      </script>
+  </div>
+</div>
+<div class="product-card6">
+<h1>USB flash drive</h1>
+
+<div class="product6-pic"></div>
+<div class="product-colors">
+    <span class="blue active" data-color="#7ed6df" data-pic="url(cardd.jpeg)"></span>
+    <span class="green" data-color="#badc58" data-pic="url(product2.jpeg)"></span>
+    <span class="yellow" data-color="#f9ca24"></span>
+    <span class="rose" data-color="#ff7979"></span>
+</div>
+<div class="product-info">
+    <div class="product-price">3000₸</div>
+    <input id="elem" type="button" class="product-button" value="Add to cart">
+    <script>
+      elem.onclick = function() {
+        alert('Спасибо');
+      };
+    </script>
+</div>
+</div>
+
+    </body>
+    </html>

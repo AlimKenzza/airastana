@@ -1,0 +1,397 @@
+<html>
+<head>
+  
+  <link rel="stylesheet" href="C:\Users\w2\Desktop\Finalll\css\first.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css..">
+<link rel="stylesheet" href="C:\Users\w2\Desktop\Finalll\css\datepicker.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B.." charset="UTF-8"></script><script src="https://kit.fontawesome.com/847d0d0a35.js" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fon.." rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script>
+
+    
+function openForm() {
+document.getElementById("login-box").style.display = "block"; }
+function closeForm() {
+document.getElementById("login-box").style.display = "none";
+} </script>
+<script>function toggleDropdown (e) {
+  const _d = $(e.target).closest('.dropdown'),
+    _m = $('.dropdown-menu', _d);
+  setTimeout(function(){
+    const shouldOpen = e.type !== 'click' && _d.is(':hover');
+    _m.toggleClass('show', shouldOpen);
+    _d.toggleClass('show', shouldOpen);
+    $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+  }, e.type === 'mouseleave' ? 300 : 0);
+}
+
+$('body')
+  .on('mouseenter mouseleave','.dropdown',toggleDropdown)
+  .on('click', '.dropdown-menu a', toggleDropdown);
+
+</script>
+ 
+<meta charset="utf-8">
+<title>Air Astana</title>
+<style>
+  .container-fluid {
+  margin: 0;
+  padding: 0;
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.dropdown {
+  &:hover {
+    > .dropdown-menu {
+      display: block;
+    }
+  }
+}
+.megamenu {
+  position: static;
+  .dropdown-menu {
+  border: none;
+  width: 100%;
+  }
+}
+
+#services {
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(Images/note.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #efefef !important;
+        background-attachment: fixed;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-yellow bg-dark py-3 shadow-sm fixed-top">
+        <a href="#" class="navbar-brand font-weight-bold mr-auto"><img src="images/like.png" style="height: 70px; width: 280px;"></a>
+        <div id="navbarContent" class="collapse navbar-collapse order-sm-12 order-lg-1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown megamenu"><a id="megamenu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">My Booking</a>
+              <div aria-labelledby="megamenu" class="dropdown-menu border-0 p-0 m-0">
+                <div class="container-fluid">
+                  <div class="row bg-dark text-light rounded-0 m-0 shadow-sm">
+                    <div class="col-12">
+                      <div class="p-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 1</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\page2.html" class="nav-link text-small pb-0">Online registration</a></li>
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\Market.html" class="nav-link text-small pb-0 ">Air Astana Market</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                             
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 2</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:/Users/w2/Desktop/Finalll/page3.html" class="nav-link text-small pb-0 ">Book Flight</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 3</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:/Users/w2/Desktop/Finalll/page4.html" class="nav-link text-small pb-0 ">FAQ</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 4</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
+          </ul>
+        </div>  
+        <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler order-md-1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      </nav>
+    
+      
+
+
+
+
+  
+<div id="slider">
+  <div id="headerSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+      <li data-target="#headerSlider" data-slide-to="1"></li>
+      <li data-target="#headerSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/firt.jpg" class="d-block img-fluid" style="width: 100%; height: 700px;">
+        <div class="carousel-caption">
+            <div id="booking" class="section">
+                <div class="section-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="booking-form">
+                                <form>
+                                    <div class="form-group">
+                                        <div class="form-checkbox">
+                                            <label for="roundtrip">
+                                                <input type="radio" id="roundtrip" name="flight-type">
+                                                <span></span>Roundtrip
+                                            </label>
+                                            <label for="one-way">
+                                                <input type="radio" id="one-way" name="flight-type">
+                                                <span></span>One way
+                                            </label>
+                                            <label for="multi-city">
+                                                <input type="radio" id="multi-city" name="flight-type">
+                                                <span></span>Multi-City
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Flying from</span>
+                                                <input class="form-control" type="text" placeholder="City or airport">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Flyning to</span>
+                                                <input class="form-control" type="text" placeholder="City or airport">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <span class="form-label">Departing</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <span class="form-label">Returning</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <span class="form-label">Adults (18+)</span>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <span class="form-label">Children (0-17)</span>
+                                                <select class="form-control">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <span class="form-label">Travel class</span>
+                                                <select class="form-control">
+                                                    <option>Economy class</option>
+                                                    <option>Business class</option>
+                                                    <option>First class</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-btn">
+                                                <button class="submit-btn"  onclick="Ohran1()">Show flights</button>
+                                                <script type="text/javascript">
+                                                  
+                                                  function Ohran1( ) { location.href = 'file:///C:/Users/w2/Desktop/Finalll/schedule.html' }
+
+                                                  </script>
+                                                  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/pi.jpg" class="d-block img-fluid" style="width: 100%; height: 700px;">
+        <div class="carousel-caption">
+            <h5>Hello
+                Where do you want to explore?</h5>
+                
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/banner2.jpg" class="d-block img-fluid" style="width: 100%; height: 700px;">
+        <div class="carousel-caption">
+            <h5>Business Website Design</h5>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<section id="about">
+<div class="container">
+<div class="row" >
+<div class="col-md-6">
+    <h2>Visit us</h2>
+    <div class="about-content">В январе 2012 года «Air Astana» была отмечена Centre for Asia Pacific Aviation как авиакомпания, 
+        «показавшая лучшие результаты в первом десятилетии по сравнению с другими перевозчиками» (CAPA, Анализ авиакомпаний, 9 января 2012 года.).
+         Тем не менее, её происхождение является одной из самых интригующих историй в авиационной отрасли за последнее время. Компания была первоначально создана как перевозчик, обслуживающий внутренние маршруты.
+         В конце 2000 года по предложению президента Казахстана Нурсултана Назарбаева </div>
+         <button type="button" class="btn btn-primary">Read More</button>
+</div>
+<div class="col-md-6 skills-bar">
+    <p>Adobe Photoshop</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 80%;">80%
+        </div>
+    </div>
+    <p>Ui Design</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 85%;">85%
+        </div>
+    </div>
+    <p>WordPress</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 75%;">75%
+        </div>
+    </div>
+    <p>Graphic Design</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 50%;">50%
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<section id="services">
+<div class="container">
+    <h1>Nomad Club</h1>
+    <div class="row services">
+      <div class="col-md-3 text center">
+        <div class="icon">
+          <i class="fab fa-cc-visa"></i>
+        </div>
+        <h3>On the wave of change</h3>
+        <p>From June 01st 2015, Nomad Club has rolled out the first phase of extended benefits for its members aiming to make your loyalty more rewarding. 
+          We are happy to announce that all structural airfares (except promotional fares in M and O classes) are now eligible for Nomad Club award and status points. With these changes introduced you will be able to achieve Silver or Gold status more quickly, as well as earn more points to obtain award tickets or upgrades.
+        </p>
+      </div> 
+      <div class="col-md-3 text center">
+        <div class="icon">
+          <i class="fas fa-wifi"></i>
+        </div>
+        <h3>Free Wi-Fi</h3>
+        <p>Free internet access is one of many advantages offered to our Diamond members. You can easily connect to free Wi-Fi indicating your Diamond membership and seat number. 
+        </p>
+        <div class="icon">
+        <i class="fas fa-suitcase"></i>
+      </div>
+        <h3>25 kg Additional Baggage Allowance </h3>
+        <p>Enjoy the privilege of an additional 25 kg free baggage allowance on all domestic and international flights.</p>
+      </div> 
+     
+      <div class="col-md-3 text center">
+        
+        <div class="icon">
+          <i class="fas fa-coins"></i>
+        </div>
+        <h3>Nomad Club Points</h3>
+        <p>There are two types of Nomad Club points: Flight Points and Bonus Points.
+
+          Flight Points are earned on Air Astana flights and always count towards your Nomad Club Silver, Gold and Diamond qualifications. Bonus Points are usually earned for partner activities. Bonus Points contribute to your Total Points balance and can therefore be redeemed for awards. 
+        </p>
+      </div> 
+      <div class="col-md-3 text center">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <h3>Contact Nomad Club</h3>
+        <p>Phone:+7 727 244 5530<br>
+          Fax:+7 727 259 8701<br>
+          Email: nomadclub@airastana.com<br>
+          Working hours: 8:00 a.m. - 5:00 p.m., Mo-Fr.<br>
+          Congratulations on becoming a member of Nomad Club programme - Kazakhstan’s first Frequent Flyer Programme and we are pleased to present to you Nomad Club Membership Guide!
+          We are always looking for ways to offer you additional and better benefits to make your travel experience with Air Astana even more enjoyable.          
+        </p>
+      </div> 
+    </div>
+</div>
+</section>
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+    <div class="col-12 social padding">
+      <a href="https://www.facebook.com/AirAstana/"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+<html>
+<head>
+  <link rel="stylesheet" href="For/css/stylee.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css..">
+<link rel="stylesheet" href="C:\Users\w2\Desktop\Final project\For\datepicker.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B.." charset="UTF-8"></script><script src="https://kit.fontawesome.com/847d0d0a35.js" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fon.." rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<meta charset="utf-8">
+<title>Air Astana</title>
+<style> * {
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body {
+    background-size: cover;
+background-position: center;
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #003e46;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.dropdown {
+  &:hover {
+    > .dropdown-menu {
+      display: block;
+    }
+  }
+}
+.megamenu {
+  position: static;
+  .dropdown-menu {
+  border: none;
+  width: 100%;
+  }
+}
+
+.container{ 
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+}
+
+.box .imgBx{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box:hover .imgBx img {
+    opacity: 0;
+}
+
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: aqua;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box:hover .content {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+.box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+}
+.box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.about-content{
+    padding-top: 20px;
+}
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-yellow bg-dark py-3 shadow-sm fixed-top">
+        <a href="C:\Users\w2\Desktop\Finalll\bootstrap.html" class="navbar-brand font-weight-bold mr-auto"><img src="images/like.png" style="height: 70px; width: 280px;"></a>
+        <div id="navbarContent" class="collapse navbar-collapse order-sm-12 order-lg-1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown megamenu"><a id="megamenu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">My Booking</a>
+              <div aria-labelledby="megamenu" class="dropdown-menu border-0 p-0 m-0">
+                <div class="container-fluid">
+                  <div class="row bg-dark text-light rounded-0 m-0 shadow-sm">
+                    <div class="col-12">
+                      <div class="p-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 1</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\page2.html" class="nav-link text-small pb-0">Online registration</a></li>
+                              <li class="nav-item"><a href="C:\Users\w2\Desktop\Finalll\Market.html" class="nav-link text-small pb-0 ">Air Astana Market</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                             
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 2</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Book Flight</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 3</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="C:/Users/w2/Desktop/Finalll/page4.html" class="nav-link text-small pb-0 ">FAQ</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading 4</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
+          </ul>
+        </div>  
+        <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler order-md-1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      </nav>
+      <div class="container">
+          <div class="box">
+              <div class="imgBx">
+                  <img src="images/africa.jpg" style=" width: 300px;height: 400px;">
+              </div>
+              <div class="content">
+                  <h3>Flights to Africa</h3>
+                  <p>Immerse yourself in nature! Africa is unsurpassed in its wildlife and its ancient traditions. Countries such as South Africa, Mauritius, and Kenya offer exhilarating adventures by day and night. From safaris to shopping and exotic cuisine to irresistible music, Africa is an experience like no other. In Morocco, Algiers, and Tunisia, explore bustling historic souks, serenely spiritual mosques and colorful streets…You’ll discover a totally different side of Africa!</p>
+              </div>
+              
+          </div>
+          <div class="box">
+            <div class="imgBx">
+                <img src="images/america.jpg" style=" width: 300px;height: 400px;">
+            </div>
+            <div class="content">
+                <h3>Flights to Americas</h3>
+                <p>Catch the beat of Brazil, step back in time in Cuba, sample amazing cuisine in Argentina, or lose yourself in the pristine mountains of Columbia… South America is a place of nature, adventure, and culture, with its rainforests, rivers, mountains, Incan ruins, and pulsating music and nightlife. From the skyscrapers of New York to the tinsel and technology of California, from the broad plains of the Dakotas to ski resorts perched high in the Rockies…North America attracts travelers with its bustling cities, diverse cuisine, and vast landscapes.</p>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/europe.jpg" style=" width: 300px;height: 400px;">
+            </div>
+            <div class="content">
+                <h3>Flights to Europe</h3>
+                <p>Modern cities in love with art, relaxing beaches, and breathtaking scenery - Europe is a treasure trove of diversity, from Norway to Greece, and Spain to Ukraine. Scores of countries with unique cultures offer all kinds of adventures.</p>
+            </div>
+            
+            
+       
+      </div>
+      </div>
+      
+      
+      
+      
+
+    </body>
+    </html>
